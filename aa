@@ -1,12 +1,10 @@
-    1  adduser demo
-    2  passwd demo 
-    3  usermod -aG sudo  demo 
-    4  hostnamectl set-hosname binjafarm.com
-    5  hostnamectl set-hostname binjafarm.com
-    6  hostnamectl set-hostname binjalfarm.com
-    7  apt-get install postfix
-    8  systemctl status postfix
-    9  dpkg-reconfigure postfix 
-   10  telnet gmail-smtp-in.l.google.com 25
-   11  history 
-   12  history >> aa
+adduser demo
+passwd demo 
+usermod -aG sudo  demo 
+hostnamectl set-hosname binjafarm.com
+hostnamectl set-hostname binjafarm.com
+hostnamectl set-hostname binjalfarm.com
+apt-get install postfix
+systemctl status postfix
+dpkg-reconfigure postfix 
+telnet gmail-smtp-in.l.google.com 25
